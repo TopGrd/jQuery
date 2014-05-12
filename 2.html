@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="06.css">
+</head>
+
+<body>
+    <a href="#" id="load">load</a>
+    <div id="ss"></div>
+    <script>
+        $(document).ready(function () {
+            $('#load').click(function(){
+            $('#ss').load('http://www.cnblogs.com/milkmap/p/3707711.html #cb_post_title_url');
+            });
+       });
+    </script>
+</body>
+
+</html>
